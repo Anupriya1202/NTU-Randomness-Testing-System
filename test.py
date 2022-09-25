@@ -19,7 +19,7 @@ testlist = [
 
 
 def main():
-    f = open('input.txt', 'r')
+    f = open('bit_data.txt', 'r')
     input = f.read()
     input = "input.txt" # input file containing bit strings
 
