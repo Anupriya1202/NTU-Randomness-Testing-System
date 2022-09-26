@@ -5,6 +5,7 @@ The NIST has documented 15 statistical tests each focusing on a particular type 
 
 # Requirements and Installations
 The dataset given as input was a text file containing 1000 blocks of 20-bit size each. These sequences were taken from an online Random Number Generator for initial development of the system. Later the system was tested using the outputs of TRNG. 
+
 System was developed using the Python 3.10 version and PyCharm IDE.
 Required packages/modules : NumPy, SciPy, Math
 
