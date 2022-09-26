@@ -19,7 +19,7 @@ def test(input, n):
 
     fs = np.fft.fft(ts_np)  # Compute DFT
 
-    mags = abs(fs)[:n/2]  #Compute magnitudes of first half of sequence
+    mags = abs(fs)[:n]  #Compute magnitudes of first half of sequence
 
 
     N1 = 0.0   # Count the peaks above the upper theshold
